@@ -1,0 +1,43 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 3rem;
+  background-color: #008080;
+  padding: 0 1rem;
+}
+
+.logo {
+  width: auto;
+  height: 2rem;
+}
+
+ul.list {
+  display: flex;
+  list-style: none;
+}
+
+ul li {
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+ul li a {
+  color: #fff;
+  transition: all 0.2s linear;
+  padding: 0.3rem 0.5rem;
+}
+
+ul li a:hover {
+  color: #222;
+  background-color: #e3dede;
+  border-radius: 1rem;
+}
