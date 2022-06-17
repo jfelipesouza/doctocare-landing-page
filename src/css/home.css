@@ -4,7 +4,9 @@ header {
   left: 0;
   right: 0;
 }
-
+main {
+  padding-top: 3rem;
+}
 nav.navbar {
   display: flex;
   flex-direction: row;
