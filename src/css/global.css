@@ -52,11 +52,11 @@ body {
 }
 
 .color-primary-light {
-  background-color: #f7f9f9;
+  color: #f7f9f9;
 }
 
 .color-brand-beige {
-  background-color: #fffaf1;
+  color: #fffaf1;
 }
 
 .color-action {
@@ -85,4 +85,31 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-justify {
+  text-align: justify;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.padding-md-t {
+  padding: 1rem;
+}
+
+.padding-md-v {
+  padding: 1rem 0;
+}
+
+.padding-md-h {
+  padding: 1rem 0;
+}
+
+.margin-md-v {
+  margin: 1rem 0;
 }
