@@ -1,9 +1,13 @@
+:root {
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 400;
   scroll-behavior: smooth;
   text-decoration: none;
 }
@@ -11,6 +15,28 @@
 body {
   overflow-x: hidden;
   background-color: #f7f9f9;
+}
+
+/* width */
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #dce9e2;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #00856f;
+
+  border-radius: 1rem;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #00453a;
 }
 
 .flex {
