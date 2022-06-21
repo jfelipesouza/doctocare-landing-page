@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="../src/css/global.css" />
     <link rel="stylesheet" href="../src/css/home.css" />
+    <script src="https://unpkg.com/phosphor-icons"></script>
     <title>My first project</title>
   </head>
   <body>
@@ -41,7 +42,7 @@
             Os médicos da DoctorCare vão além dos sintomas para tratar a causa
             raiz de sua doença e proporcionar uma cura a longo prazo.
           </p>
-          <a href="#services" class="actionButton">Comece agora</a>
+          <a href="#" class="actionButton">Comece agora</a>
         </div>
 
         <div class="flex-w-50 flex-center p-relative">
@@ -72,12 +73,16 @@
         </div>
       </div>
 
-      <section class="section bg-primary-light flex-column" id="services">
+      <section
+        class="section bg-primary-light flex flex-center flex-column"
+        id="services"
+      >
         <h2 class="title text-center color-action-hover">
           Como podemos ajudá-lo a se sentir melhor?
         </h2>
         <div class="wrapper-articles">
           <div class="cardItem flex flex-column bg-primary-light">
+            <i class="ph-check-circle icon"></i>
             <h3 class="card-title color-action">Problemas digestivos</h3>
             <p class="card-descrition color-text text-justify">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -86,6 +91,7 @@
           </div>
 
           <div class="cardItem flex flex-column bg-primary-light">
+            <i class="ph-check-circle icon"></i>
             <h3 class="card-title color-action">Saúde Hormonal</h3>
             <p class="card-descrition color-text text-justify">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -94,6 +100,7 @@
           </div>
 
           <div class="cardItem flex flex-column bg-primary-light">
+            <i class="ph-check-circle icon"></i>
             <h3 class="card-title color-action">Bem-estar mental</h3>
             <p class="card-descrition color-text text-justify">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -102,6 +109,7 @@
           </div>
 
           <div class="cardItem flex flex-column bg-primary-light">
+            <i class="ph-check-circle icon"></i>
             <h3 class="card-title color-action">Cuidados Pediátricos</h3>
             <p class="card-descrition color-text text-justify">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -110,6 +118,7 @@
           </div>
 
           <div class="cardItem flex flex-column bg-primary-light">
+            <i class="ph-check-circle icon"></i>
             <h3 class="card-title color-action">Autoimune e Inflamação</h3>
             <p class="card-descrition color-text text-justify">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -118,6 +127,7 @@
           </div>
 
           <div class="cardItem flex flex-column bg-primary-light">
+            <i class="ph-check-circle icon"></i>
             <h3 class="card-title color-action">Saúde do Coração</h3>
             <p class="card-descrition color-text text-justify">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -146,7 +156,55 @@
           </p>
         </div>
       </section>
+
+      <section id="contact" class="section flex bg-primary-light flex-center">
+        <div class="flex flex-center flex-w-50 flex-column margin-md-v">
+          <h2 class="contact-title">Entre em contato com a gente!</h2>
+
+          <div class="inline" style="align-self: left">
+            <i class="ph-map-pin-line icon color-action"></i>
+            <p class="color-text-gray-light">R. Amauri Souza, 346</p>
+          </div>
+
+          <div class="inline">
+            <i class="ph-envelope icon color-action"></i>
+            <p class="color-text-gray-light">contato@beautysalon.com</p>
+          </div>
+
+          <a class="actionButton flex" href="#">
+            <i class="ph-whatsapp-logo icon margin-sm-h"></i>
+            Fale conosco
+          </a>
+        </div>
+
+        <div class="flex flex-w-50 p-relative flex-center">
+          <img
+            class="info-image"
+            alt="homem negro contente com o atendimento"
+            src="../src/assets/img/blackManSmile.svg"
+          />
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="flex flex-column flex-center">
+        <a>
+          <img class="footer-logo" src="../src/assets/img/whiteLogo.svg" />
+        </a>
+        <div class="footer-inline color-primary-light">
+          <i class="ph-copyright"></i>
+          <p>2022 - DoctorCare</p>
+        </div>
+      </div>
+      <div class="flex flex-row flex-center">
+        <div class="flex flex-center">
+          <a class="icon-button" href="#"><i class="ph-youtube-logo"></i></a>
+
+          <a class="icon-button" href="#"><i class="ph-instagram-logo"></i></a>
+
+          <a class="icon-button" href="#"><i class="ph-linkedin-logo"></i></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
